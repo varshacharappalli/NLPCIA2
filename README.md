@@ -6,7 +6,7 @@ This pipeline leverages a novel architecture by combining **Semantic Embeddings*
 
 ---
 
-## 📊 Project Statistics and Results
+## Project Statistics and Results
 
 The pipeline processes documents from the **ACL Anthology Network (AAN)** dataset. By default, the execution performs the following:
 
@@ -30,7 +30,7 @@ During the final test phase, the pipeline predicts whether sentence $i$ comes be
 
 ---
 
-## 🏗️ Detailed Architecture and Step-by-Step Flow
+## Detailed Architecture and Step-by-Step Flow
 
 The program logic is orchestrated centrally by `pipeline/main.py`. Here is a breakdown of everything that happens behind the scenes:
 
@@ -92,7 +92,7 @@ For sample documents, it compares the Predicted Sentence text side-by-side with 
 
 ---
 
-## 🚀 Execution
+## Execution
 
 To initiate the pipeline, generate data splits, train the embeddings, configure the GCN graphs, compute fusion, and output the analysis:
 
@@ -100,7 +100,7 @@ To initiate the pipeline, generate data splits, train the embeddings, configure 
 python pipeline/main.py
 ```
 
-### 🎮 Interactive Mode (New)
+### Interactive Mode (New)
 After running the pipeline at least once, the trained weights are saved to disk. You can then use the interactive tool to test custom sentence sets instantly:
 
 ```bash
